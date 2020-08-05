@@ -1,1 +1,42 @@
-
+.converse{
+  width: 400px;
+  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+}
+.logo{
+  width: 50px;
+}
+.left{
+  margin-left: 150px;
+  display: inline-block;
+}
+.right{
+  display: inline-block;
+  margin-left: 700px;
+  text-align: center;
+}
+.details{
+ margin-left: 150px;
+}
+.recommended{
+  background: silver;
+  text-align: center;
+  font-size: 12px;
+}
+.excitingtopics{
+  font-size: 25px;
+}
+.Findyourshoe{
+  font-size: 25px;
+}
+.Whatourcustomers{
+  font-size: 25px;
+}
+.navbar{
+  text-decoration: none;
+}
+.column{
+  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+  display: inline-block;
+  width: 300px;
+  padding left: 50px;
+}
