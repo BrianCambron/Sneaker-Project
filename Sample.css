@@ -1,0 +1,55 @@
+p1 {
+  color: orangered;
+  word-spacing: 15px;
+}
+p2 {
+  color: orangered;
+  margin-left: 450px;
+  word-spacing: 10px;
+}
+p3{
+  margin-left: 170px;
+  text-align: right;
+}
+.converse{
+  margin-left: 170px;
+  width: 500px;
+
+}
+.logo {
+  width: 40px;
+}
+h2{
+  color: orangered;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.back{
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 170px;
+}
+.description{
+  text-align: left;
+  color: orangered;
+  word-spacing: 5px;
+}
+.reviews{
+  text-align: right;
+  margin-left: 300px;
+  color: orangered
+}
+.content{
+margin-left: 170px;
+}
+.recommended{
+  text-align: center;
+}
+.funnysneakers{
+  text-align: left;
+  margin-left: 200px;
+}
+.bluesneakers{
+  width: 300px;
+}
