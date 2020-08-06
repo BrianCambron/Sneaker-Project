@@ -1,6 +1,6 @@
 .converse{
   width: 400px;
-  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+  background-color: orangered;
 }
 .logo{
   width: 50px;
@@ -33,9 +33,9 @@
 }
 .navbar{
   text-decoration: none;
+  color: orangered;
 }
 .column{
-  background-image: linear-gradient(to right,mediumVioletRed,orangered);
   display: inline-block;
   width: 300px;
   padding left: 50px;
