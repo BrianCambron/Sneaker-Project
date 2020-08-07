@@ -91,16 +91,23 @@
   outline-color: #FF9D9D;
 }
 .recommended{
-  background: silver;
+  background: #FFECEE;
   text-align: center;
-  font-size: 12px;
+  font-size: 22px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
-.excitingtopics{
-  font-size: 25px;
+.container-4{
+  font-family: 'Roboto', sans-serif;
 }
-.Findyourshoe{
-  font-size: 25px;
+.recommendedshoes{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-.Whatourcustomers{
-  font-size: 25px;
+.recommendedshoes img{
+  width: 250px;
 }
