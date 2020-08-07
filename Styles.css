@@ -1,21 +1,94 @@
-.converse{
-  width: 400px;
-  background-color: orangered;
-}
 .logo{
   width: 50px;
+  margin-left: 20px;
+  padding-right: 5px;
 }
-.left{
-  margin-left: 150px;
-  display: inline-block;
+.container-1{
+  display: flex;
+  }
+  .left a, .right a{
+    text-decoration: none;
+    color: #FF7153;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .left a:hover, .right a:hover{
+    color: #BE4129;
+    border-bottom: solid;
+    border-color: #F6BCBB;
+  }
+  .left{
+    display: flex;
+    align-items: flex-end;
+  }
+  .right{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 660px;
+  }
+  .cart{
+    padding-right: 5px;
+  }
+.converse{
+  width: 500px;
 }
-.right{
-  display: inline-block;
-  margin-left: 700px;
-  text-align: center;
+.backtoallshoes{
+  margin-left: 200px;
+  color: white;
+}
+.container-2{
+  display: flex;
+  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.quicksneakers{
+  color: white;
+  margin-left: 50px;
+}
+.lorem{
+  display: inline;
+}
+.quickheading h1{
+  margin-top: 60px;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.quickheading p{
+  color: #AE2B3E;
+}
+.quicksneakers a{
+  color: #AC2F27;
+  margin-left: 40px;
+}
+.dashed-border{
+  border-top: dashed;
+  border-bottom: dashed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-color: #AE2B3E;
 }
 .details{
- margin-left: 150px;
+ margin-left: 200px;
+}
+.details a{
+  text-decoration: none;
+  color: #FF7153;
+  padding-right: 25px;
+}
+.details a:hover{
+  color: #BE4129;
+  border-bottom: solid;
+  border-color: #F6BCBB;
+}
+.reviews{
+  padding-left: 850px;
+  color: #FF9D9D;
+}
+.checked{
+  color: #FF9D9D;
+  outline-color: #FF9D9D;
 }
 .recommended{
   background: silver;
@@ -30,13 +103,4 @@
 }
 .Whatourcustomers{
   font-size: 25px;
-}
-.navbar{
-  text-decoration: none;
-  color: orangered;
-}
-.column{
-  display: inline-block;
-  width: 300px;
-  padding left: 50px;
 }
