@@ -1,3 +1,4 @@
+
 .logo{
   width: 50px;
   margin-left: 20px;
@@ -5,6 +6,7 @@
 }
 .container-1{
   display: flex;
+  justify-content: space-between;
   }
   .left a, .right a{
     text-decoration: none;
@@ -24,7 +26,7 @@
   .right{
     display: flex;
     align-items: flex-end;
-    margin-left: 660px;
+    justify-content: flex-end;
   }
   .cart{
     padding-right: 5px;
@@ -69,8 +71,14 @@
   padding-bottom: 30px;
   border-color: #AE2B3E;
 }
+.container-3{
+  display: flex;
+  justify-content: space-between;
+}
 .details{
  margin-left: 200px;
+ display: flex;
+ justify-content: space-between;
 }
 .details a{
   text-decoration: none;
@@ -83,12 +91,16 @@
   border-color: #F6BCBB;
 }
 .reviews{
-  padding-left: 850px;
+  display: flex;
   color: #FF9D9D;
+  justify-content: flex-end;
 }
 .checked{
   color: #FF9D9D;
   outline-color: #FF9D9D;
+}
+.topics{
+  margin-left: 200px;
 }
 .recommended{
   background: #FFECEE;
@@ -97,17 +109,64 @@
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.container-4{
+.container-5{
   font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right,mediumVioletRed,orangered);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.container-5 p{
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .recommendedshoes{
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background-image: linear-gradient(to right,mediumVioletRed,orangered);
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 .recommendedshoes img{
   width: 250px;
+}
+.shoename{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 24px;
+}
+.springsummer{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  color: #AE2B3E;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.leftfooter{
+  display: flex;
+}
+.leftfooter a{
+  text-decoration: none;
+  color: #FF7153;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.leftfooter a:hover{
+  color: #BE4129;
+  border-bottom: solid;
+  border-color: #F6BCBB;
+}
+.rightfooter{
+  display: flex;
+  justify-content: flex-end;
+}
+.rightfooter a{
+  padding-right: 10px;
+  color: black;
+}
+.copyright{
+  padding-right: 20px;
 }
